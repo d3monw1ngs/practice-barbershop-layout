@@ -1,0 +1,29 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#E5E5E5"/>
+<g id="Desktop" clip-path="url(#clip0_25368_2)">
+<rect width="1280" height="5025" transform="translate(-257 -3413)" fill="white"/>
+<g id="Our Barbers ">
+<rect id="Bg" x="-257" y="-728" width="1280" height="890" fill="#F7F7F7"/>
+<g id="Card_1">
+<g id="text">
+<g id="Social links">
+<g id="Ellipse">
+<path id="Ellipse_2" d="M32 10C32 16.0751 29.5376 21.5751 25.5564 25.5564C21.5751 29.5376 16.0751 32 10 32C3.92487 32 -1.57513 29.5376 -5.55635 25.5564C-9.53757 21.5751 -12 16.0751 -12 10C-12 3.92487 -9.53757 -1.57513 -5.55635 -5.55635C-1.57513 -9.53757 3.92487 -12 10 -12C16.0751 -12 21.5751 -9.53757 25.5564 -5.55635C29.5376 -1.57513 32 3.92487 32 10Z" fill="white"/>
+<g id="facebook 1" clip-path="url(#clip1_25368_2)">
+<path id="Vector" d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15584V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z" fill="#303030"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_25368_2">
+<rect width="1280" height="5025" fill="white" transform="translate(-257 -3413)"/>
+</clipPath>
+<clipPath id="clip1_25368_2">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
