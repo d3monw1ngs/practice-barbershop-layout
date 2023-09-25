@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- THE HEADING SECTION -->
-    <headng>
-        <img src="images/barbershop-logo.svg" alt="logo" width="63.93"></img>
-        <a href="Instagram">Instagram</a>
-        <a href="YouTube">YouTube</a>
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Services and Prices</li>
-                    <li>Barbers</li>
-                    <li>Contacts</li>
+    <heading class="header">
+        <nav class="header-nav">
+            <img src="images/barbershop-logo.svg" alt="logo" width="63.93"></img>
+                <a href="Instagram">Instagram</a>
+                <a href="YouTube">YouTube</a>
+           
+                <ul class="header-nav-list list">
+                    <li class="header-item">
+                        <a class="header-link link" href="#">About</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link link" href="#">Services and Prices</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link link" href="#">Barbers</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link link" href="#">Contacts</a>
+                    </li>
                 </ul>
             </nav>
             <div>
-                <ul>
-                    <li><a href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
-                    <li><button type="button">BOOK A SERVICE</button></li>
+                <ul class="header-contact-info list">
+                    <li><a class="header-link link" href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
+                    <li><button class="header-button button" type="button">BOOK A SERVICE</button></li>
                 </ul>
             </div>
             <div>
@@ -33,11 +48,11 @@
                 <p>Back</p>
                 <p>Next</p>
             </div>
-    </headng>
+    </heading>
 
     <!-- THE ABOUT SECTION -->
     <section>
-        <ul>
+        <ul class="about-section-list list">
             <li><img src="images/img 1.jpg" alt="beard grooming"></li>
             <li><img src="images/img 2.jpg" alt="hair cut"></li>
         </ul>
@@ -49,7 +64,7 @@
             And once you fall into the hands of our master, you will never be the same <br/>
             again. We are a team that is always on the same wavelength with clients. <br/>
             Therefore, we are always ready to improve everyone who comes to us!</p>
-        <button type="button">BOOK A SERVICE</button>
+        <button class="about-section-button button" type="button">BOOK A SERVICE</button>
     </section>
 
     <!-- SERVICES AND PRICES SECTION -->
@@ -57,7 +72,7 @@
         <h5>Spend time in the company of the best craftsmen</h5>
         <h2>Services and Prices</h2>
         <div>
-            <ul>
+            <ul class="services-list list">
                 <li>Men's Haircut _________________ from 300 UAH</li>
                 <li>Beard Trim ____________________ from 200 UAH</li>
                 <li>Mustache Trim _________________ from 200 UAH</li>
@@ -65,19 +80,19 @@
             </ul>
         </div>
         <div>
-            <ul>
+            <ul class="services-list list">
                 <li>Trainee Haircut ________________ from 50 UAH</li>
                 <li>Buzz Cut ______________________ from 200 UAH</li>
                 <li>Kids Haircut (&lsaquo;12 y.o.) __________ from 300 UAH</li>
                 <li>Gray Coverage _________________ from 200 UAH</li>
             </ul>
         </div>
-        <button type="button">BOOK A SERVICE</button>
+        <button class="servies-button button" type="button">BOOK A SERVICE</button>
     </section>
 
-    <!-- OLD SCHOOL SECTION -->
+    <!-- STATISTICS SECTION -->
     <section>
-        <ul>
+        <ul class="stats-section list">
             <li>
                 <h2>600</h2>
                 <p>Satisfied Customers <br/>
@@ -109,7 +124,7 @@
     <section>
         <h5>for true connoisseurs of the atmosphere</h5>
         <h2>Our Barbers</h2>
-        <ul>
+        <ul class="our-barbers-list list">
             <li>
                 <img src="images/john-smith.jpg" alt="john smith">
                 <h5>John Smith</h5>
@@ -143,7 +158,7 @@
     <!-- PICTURES SECTION -->
     <section>
         <h5>In Latin, "barba" means "beard"</h5>
-        <ul>
+        <ul class="pictures-list list">
             <li>
                 <img src="images/Rectangle 25.jpg" alt="hair cut" width="270">
             </li>
@@ -177,12 +192,12 @@
                         <input type="text" name="Message" />
                     </label>
                 </form>
-            <button type="button">SEND</button>
+            <button class="booking-button button" type="button">SEND</button>
         </div>
         <div>
             <h2>Contacts</h2>
             <address>
-                <ul>
+                <ul class="booking-address list">
                     <li>
                         <img src="images/map-pin.svg" alt="map pin logo" width="24">
                         Main Street, 7A <br/>
@@ -204,7 +219,7 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <section>
+    <section class="footer-section">
         &copy; <p>Copyright 2022</p>
         <a href="Instagram">Instagram</a>
         <a href="YouTube">YouTube</a>
